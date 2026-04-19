@@ -19,14 +19,10 @@ html{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-
-.grid{
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-.grid__full-width{
+.grid {
     width: 100%;
+    display: block;
+    padding: 0;
 }
 .grid__row{
     display: flex;

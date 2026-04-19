@@ -133,6 +133,7 @@
     transform: rotate(45deg);
     border-top: 1px solid #d3d3d3;
     border-left: 1px solid #d3d3d3;
+
 }
 .header__notify::after{
     content: "";

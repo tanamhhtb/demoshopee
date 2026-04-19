@@ -133,9 +133,7 @@
     }
 
     .header__cart-list {
-        width: 100vw;
-        right: 0;
-        left: auto;
+        display: none !important;
     }
 
     .home-filter-mobile__list {

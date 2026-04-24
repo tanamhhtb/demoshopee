@@ -9,7 +9,6 @@ var overlay = document.querySelector(".modal__overlay");
 var authForms = document.querySelectorAll(".modal .auth-form");
 var backButtons = document.querySelectorAll(".auth-form__control-back");
 var switchButtons = document.querySelectorAll(".auth-form__switch-btn");
-var heartIcons = document.querySelectorAll(".ti-heart");
 
 if (modal) {
     modal.style.display = "none";
@@ -64,17 +63,3 @@ if (registerTrigger && loginTrigger && modal && authForms.length >= 2) {
         });
     });
 }
-
-heartIcons.forEach(function (heartIcon) {
-    heartIcon.style.cursor = "pointer";
-    heartIcon.style.color = "black";
-
-    heartIcon.addEventListener("click", function () {
-        if (heartIcon.style.color === "red") {
-            heartIcon.style.color = "black";
-            return;
-        }
-
-        heartIcon.style.color = "red";
-    });
-});

@@ -133,7 +133,6 @@
     transform: rotate(45deg);
     border-top: 1px solid #d3d3d3;
     border-left: 1px solid #d3d3d3;
-
 }
 .header__notify::after{
     content: "";
@@ -237,6 +236,9 @@
     background-color: #f7f7f7;
 }
 /* Authen modal */
+.modal{
+    display: none;
+}
 .auth-form{
     width: 500px;
     background-color: var(--white-color);
